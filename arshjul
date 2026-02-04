@@ -1,0 +1,154 @@
+<style>
+  .year-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    max-width: 1100px;
+    margin: auto;
+  }
+
+  svg {
+    max-width: 400px;
+    display: block;
+  }
+
+  .month-slice path {
+    cursor: pointer;
+    transition: fill 0.3s, filter 0.3s, stroke 0.3s;
+  }
+
+  .month-slice path.active-month {
+    stroke: #333;
+    stroke-width: 2;
+    filter: brightness(1.2);
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    text-align: left;
+  }
+
+  th {
+    background: #f0f0f0;
+  }
+
+  .month-table { display: none; }
+  .month-table.active { display: table; }
+
+  #month-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
+  }
+
+  /* Årshjulet – håll allt i tabellen på en rad */
+  .month-table td,
+  .month-table th {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* klipper texten om den blir för lång */
+  }
+
+.year-container {
+  display: flex;
+  justify-content: center;   /* centrera hela blocket */
+  align-items: flex-start;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.year-container svg {
+  flex: 0 0 400px;           /* hjulet låst till 400px */
+  max-width: 400px;
+  height: auto;
+}
+
+#table-container {
+  flex: 0 0 500px;           /* tabellen har alltid 500px bredd */
+  min-height: 200px;         /* lite höjd så det inte hoppar när tomt */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#table-container table {
+  width: 100%;
+}
+
+#month-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+
+#table-container table {
+  width: 100%;
+}
+
+#month-title {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.year-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0 2rem 0; /* lite luft ovanför och under */
+  color: #002b45; /* samma ton som i dina boxar */
+}
+
+.avia_codeblock {
+    margin-bottom: 0 !important;
+}
+
+
+.avia_textblock {
+    margin-bottom: 10px !important;
+    padding: 10px 0 !important;
+}
+
+/* Specifikt för dina element */
+.year-container {
+    margin: 10px 0 !important;
+}
+
+h1 {
+    margin: 15px 0 !important;
+}
+
+body {
+    margin: 0 !important;
+}
+</style>
+
+<h1 class="year-heading">Månadens aktiviteter</h1>
+
+<div class="year-container">
+  <svg id="yearWheel" viewBox="0 0 200 200"></svg>
+  <div id="table-container">
+    <div id="month-title"></div>
+  </div>
+</div>
+
+
+<div class="year-container">
+  <svg id="yearWheel" viewBox="0 0 200 200"></svg>
+  <div id="table-container">
+    <div id="month-title"></div>
+  </div>
+</div>
