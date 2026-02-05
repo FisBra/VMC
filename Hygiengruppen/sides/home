@@ -1,0 +1,255 @@
+<style>
+/* ========================================
+   BASE STYLES
+   ======================================== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+/* ========================================
+   MAIN CONTAINER & LAYOUT
+   ======================================== */
+.home-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.page-heading {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  margin: 1rem 0 2rem 0;
+  color: #002b45;
+}
+
+/* Main grid layout for boxes */
+.boxes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* ========================================
+   INFO BOX STYLES
+   ======================================== */
+.info-box {
+  background: linear-gradient(135deg, #002b45 0%, #004d7a 100%);
+  border-radius: 12px;
+  padding: 1.5rem;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 43, 69, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 43, 69, 0.3);
+}
+
+.info-box h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  padding-bottom: 0.5rem;
+}
+
+.info-box p {
+  margin: 0 0 1rem 0;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+.info-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-box li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.info-box li:last-child {
+  border-bottom: none;
+}
+
+.info-box li::before {
+  content: "›";
+  color: #4fc3f7;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.info-box a {
+  color: #81d4fa;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.info-box a:hover {
+  color: #b3e5fc;
+  text-decoration: underline;
+}
+
+/* ========================================
+   SALESTOOLS BOX (Featured)
+   ======================================== */
+.info-box.salestools {
+  background: linear-gradient(135deg, #1a3a52 0%, #2d5a7b 100%);
+  border: 2px solid #4fc3f7;
+}
+
+.info-box.salestools h2::after {
+  content: " ★";
+  color: #4fc3f7;
+}
+
+/* ========================================
+   RESPONSIVE BREAKPOINTS
+   ======================================== */
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .boxes-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Tablet landscape */
+@media (max-width: 1024px) {
+  .home-container {
+    padding: 1rem;
+  }
+
+  .boxes-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+
+  .page-heading {
+    font-size: 1.9rem;
+  }
+}
+
+/* Tablet portrait */
+@media (max-width: 768px) {
+  .home-container {
+    padding: 0.75rem;
+  }
+
+  .page-heading {
+    font-size: 1.6rem;
+    margin: 0.75rem 0 1.5rem 0;
+  }
+
+  .boxes-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .info-box {
+    padding: 1.25rem;
+  }
+
+  .info-box h2 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .home-container {
+    padding: 0.5rem;
+  }
+
+  .page-heading {
+    font-size: 1.4rem;
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  .info-box {
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .info-box h2 {
+    font-size: 1.2rem;
+  }
+
+  .info-box li {
+    font-size: 0.9rem;
+    padding: 0.4rem 0;
+  }
+
+  .info-box p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 360px) {
+  .boxes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .info-box {
+    padding: 0.875rem;
+  }
+
+  .info-box h2 {
+    font-size: 1.1rem;
+  }
+}
+</style>
+
+<div class="home-container">
+  <h1 class="page-heading">Välkommen</h1>
+
+  <div class="boxes-grid">
+    <!-- Salestools Box -->
+    <div class="info-box salestools">
+      <h2>Salestools</h2>
+      <p>Verktyg för säljteamet</p>
+      <ul>
+        <li>CRM Dashboard</li>
+        <li>Lead Management</li>
+        <li>Pipeline Overview</li>
+        <li>Sales Reports</li>
+        <li>Customer Analytics</li>
+      </ul>
+    </div>
+
+    <!-- Quick Links Box -->
+    <div class="info-box">
+      <h2>Snabblänkar</h2>
+      <ul>
+        <li>Kalender</li>
+        <li>Kontakter</li>
+        <li>Dokument</li>
+        <li>Inställningar</li>
+      </ul>
+    </div>
+
+    <!-- Resources Box -->
+    <div class="info-box">
+      <h2>Resurser</h2>
+      <ul>
+        <li>Produktkatalog</li>
+        <li>Prislistor</li>
+        <li>Manualer</li>
+        <li>Support</li>
+      </ul>
+    </div>
+  </div>
+</div>
