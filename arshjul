@@ -146,12 +146,6 @@ body {
 </div>
 
 <div class="custom-box-row">
-  <!-- Salestools -->
-  <a href="/salestools" class="custom-box">
-    <i data-lucide="briefcase"></i>
-    <span>Salestools</span>
-  </a>
-
   <!-- Funktionskontroll -->
   <a href="https://hygiengruppen.outbb.com/funktion/"
      class="custom-box"
@@ -165,6 +159,12 @@ body {
   <a href="/samarbetsavtal" class="custom-box">
     <i data-lucide="file-text"></i>
     <span>Samarbetsavtal</span>
+  </a>
+
+  <!-- Salestools (mitten) -->
+  <a href="/salestools" class="custom-box">
+    <i data-lucide="briefcase"></i>
+    <span>Salestools</span>
   </a>
 
   <!-- Säljprocess -->
