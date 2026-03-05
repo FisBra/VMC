@@ -1,0 +1,554 @@
+/* Anpassad Akutplan-knapp i huvudmenyn */
+#top #avia-menu li.menu-akutplan > a {
+  background: #b30000;         /* röd bakgrund */
+  color: #fff !important;      /* vit text */
+  font-weight: bold;
+  border-radius:15px;          /* lite rundade hörn */
+  padding: 6px 14px !important;/* inre spacing */
+  margin-top: 0px;             /* justering för att ligga i linje */
+  margin-left: 10px;
+  display: flex;               /* flex för centrering */
+  align-items: center;         /* vertikal centrering */
+  justify-content: center;     /* horisontell centrering */
+  height: 36px;                /* fixad höjd så den matchar menyn */
+  line-height: 1;              /* tar bort ev. offset från typsnittet */
+  transition: background 0.3s ease;
+}
+
+/* Hover-effekt */
+#top #avia-menu li.menu-akutplan > a:hover {
+  background: #ff0000;
+}
+
+/* Kalender-modal */
+.calendar-modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+.calendar-modal-content {
+  background: #fff !important;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 1000px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.calendar-modal-header {
+  padding: 10px;
+  text-align: right;
+  background: #2d2d2d;
+  color: #fff;
+}
+.calendar-modal iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+.close-btn {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* --- Sidomenyn (vänster kolumn med rubriker) --- */
+.sidebar_tab .tab_titles {
+  background: #f9fafb;              /* ljus bakgrund */
+  border: 1px solid #ddd;           /* tunn ram */
+  border-radius: 12px;              /* rundade hörn */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* mjuk skugga */
+  padding: 10px;                    /* lite luft runt rubrikerna */
+}
+
+/* Meny-rubrikerna inuti */
+.sidebar_tab .tab_titles .tab {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  padding: 12px 16px !important;
+  margin-bottom: 6px;               /* mellanrum mellan rubriker */
+  color: #002b45 !important;
+  border-radius: 6px;               /* rundade hörn på knappar */
+  transition: all 0.2s ease-in-out;
+}
+
+/* Hover-effekt */
+.sidebar_tab .tab_titles .tab:hover {
+  background: #f0f4f8 !important;
+  color: #0284c7 !important;
+  cursor: pointer;
+}
+
+/* Aktiv rubrik */
+.sidebar_tab .tab_titles .tab.active_tab {
+  background: #0284c7 !important;
+  color: #fff !important;
+}
+
+/* --- Själva innehållsrutan (till höger) --- */
+.sidebar_tab .tab_content {
+  border: 1px solid #ddd !important;
+  border-radius: 12px !important;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12) !important;
+  padding: 20px !important;
+  background: #fff !important;
+}
+
+/* Global bakgrund */
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #f2f0eb 100%) !important;
+}
+
+/* Nyhetsbox – grundutseende */
+.vmc-news-box {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  padding: 20px;
+  margin-top: 15px;
+}
+
+.vmc-news-title {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #002b45;
+  font-weight: 700;
+}
+
+.vmc-news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.vmc-news-item {
+  margin-bottom: 12px;
+}
+
+.vmc-news-date {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.vmc-news-link {
+  display: block;
+  font-size: 0.95rem;
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.vmc-news-link:hover {
+  text-decoration: underline;
+}
+
+/* ================================
+   INTRANÄTSSTARTEN (page-id-3570)
+   ================================ */
+
+/* Gör sidan lite bredare, men låt Enfold sköta kolumnbredden */
+.page-id-3570 #wrap_all .container {
+    max-width: 1600px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Nyhetsboxen – placering i högerkolumn */
+.page-id-3570 .vmc-news-box {
+    margin-top: 40px;
+    max-width: 250px !important;   /* prova 450–550px */;
+    margin-left: auto;
+    margin-right: -250px;  /* trycker den ännu längre åt höger */
+}
+
+/* Om dina boxar ligger i en .main-container inne i codeblock */
+.page-id-3570 .flex_column.av_two_third .avia_codeblock .main-container {
+    max-width: 1200px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* Intranätets startsida – låt rutorna använda hela vänsterkolumnen */
+.page-id-3570 .flex_column.av_two_third .avia_codeblock .main-container {
+    width: 100%;
+    max-width: none;    /* tar bort “taket” på bredden */
+    margin-left: 0;
+    margin-right: 0;
+}
+/* ================================
+   VMC Nyhetsruta – förbättrad rubrik
+   ================================ */
+
+/* Större, tyngre, centrerad rubrik */
+.vmc-news-box .vmc-news-title {
+    font-size: 1.8rem !important;   /* större rubrik */
+    font-weight: 800 !important;    /* mer pondus */
+    color: #002b45 !important;      /* VMC mörkblå */
+    letter-spacing: -0.5px;         /* modern och kompakt */
+    text-align: center !important;  /* centrerad rubrik */
+    margin-bottom: 25px !important; /* mer luft nedåt */
+}
+/* Grund-styling */
+.page-id-3570 .vmc-news-box {
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 12px;
+    padding: 24px !important;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06) !important;
+    transition: all 0.25s ease-in-out;
+}
+
+/* Hover – starkare och överrider Enfold */
+.page-id-3570 .vmc-news-box:hover {
+    border-color: #0e3a5f !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.18) !important;
+    transform: translateY(-2px);
+    transition: all 0.25s ease-in-out;
+}
+/* Nyhetsbox – större totalhöjd */
+.vmc-news-box {
+    max-height: 550px;             /* Öka höjden här */
+    border: 1px solid #d9d9d9;
+    border-radius: 12px;
+    background: #ffffff;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Rubriken ligger fast i toppen */
+.vmc-news-title {
+    position: sticky;
+    top: 0;
+    background: #ffffff;
+    padding: 20px 24px;
+    z-index: 10;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Listan scrollar – räkna ner titelns höjd */
+.vmc-news-list {
+    max-height: calc(550px - 70px);   /* Titel ca 70px */
+    overflow-y: auto;
+    padding: 20px 24px;
+    margin: 0;
+    list-style: none;
+}
+.page-id-3570 .vmc-news-box {
+    margin-top: 0 !important;
+}
+/* =====================================================
+   SÄLJKALENDER - FULL CODEPEN-STIL, ISOLERAD FRÅN ENFOLD
+   ===================================================== */
+.saljkalender-app {
+  font-family: 'Arial', sans-serif;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Titel och introtext */
+.saljkalender-app h1 {
+  color: #1e3a5f;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.saljkalender-app p {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+/* Väljarraden */
+.saljkalender-app .month-selector {
+  display: flex !important;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  background: #f8f9fa;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px 18px;
+  margin-bottom: 30px;
+}
+
+.saljkalender-app .month-selector label {
+  font-weight: 600;
+  color: #1e3a5f;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.saljkalender-app .month-selector select {
+  appearance: auto !important;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #1e3a5f;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  width: auto !important;
+  min-width: 140px;
+}
+
+.saljkalender-app .month-selector select:hover {
+  border-color: #c41e3a;
+}
+
+.saljkalender-app .month-selector select:focus {
+  outline: none;
+  border-color: #c41e3a;
+  box-shadow: 0 0 0 3px rgba(196,30,58,0.1);
+}
+
+/* Kalendern */
+.saljkalender-app .calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.saljkalender-app .day-header {
+  background: #1e3a5f;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.saljkalender-app .day-cell {
+  background: #fafafa;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 12px;
+  min-height: 100px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.saljkalender-app .day-cell:hover {
+  background: white;
+  border-color: #c41e3a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(196, 30, 58, 0.2);
+}
+
+.saljkalender-app .day-cell.has-data {
+  background: #d4edda;
+  border-color: #28a745;
+}
+
+.saljkalender-app .day-number {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1e3a5f;
+  margin-bottom: 5px;
+}
+
+.saljkalender-app .add-icon {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  background: #c41e3a;
+  color: white;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  font-size: 16px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sammanfattning */
+.saljkalender-app .summary {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.saljkalender-app .summary h3 {
+  color: #1e3a5f;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.saljkalender-app .summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.saljkalender-app .summary-item {
+  background: #fff;
+  border-left: 4px solid #c41e3a;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Exportknapp */
+.saljkalender-app .export-button {
+  margin-top: 15px;
+  background: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.saljkalender-app .export-button:hover {
+  background: #218838;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(40,167,69,0.3);
+}
+
+/* Modal */
+.saljkalender-app .modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.saljkalender-app .modal.active {
+  display: flex;
+}
+
+.saljkalender-app .modal-content {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 450px;
+}
+
+.saljkalender-app .form-group {
+  margin-bottom: 15px;
+}
+
+.saljkalender-app .form-group label {
+  display: block;
+  font-weight: 600;
+  color: #1e3a5f;
+  margin-bottom: 6px;
+}
+
+.saljkalender-app .form-group input {
+  width: 100%;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.saljkalender-app .btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.saljkalender-app .btn-primary {
+  background: #c41e3a;
+  color: white;
+}
+
+.saljkalender-app .btn-primary:hover {
+  background: #a01829;
+}
+
+.saljkalender-app .btn-secondary {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.saljkalender-app .btn-secondary:hover {
+  background: #ccc;
+}
+
+/* Mobilanpassning */
+@media (max-width: 768px) {
+  .saljkalender-app .month-selector {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .saljkalender-app .month-selector select {
+    width: 100% !important;
+  }
+}
+/* ===========================================
+   FIX: Gör säljrapportsidan platt som övriga sidor
+   =========================================== */
+.page-id-3783 #wrap_all,
+.page-id-3783 #main,
+.page-id-3783 .container_wrap,
+.page-id-3783 .content,
+.page-id-3783 .container_wrap_first,
+.page-id-3783 .container {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Headern (menyraden) */
+.page-id-XXXX #header_main {
+  background: #ffffff !important;
+  box-shadow: none !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Tar bort vit ruta under headern */
+.page-id-XXXX #main .container_wrap {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* Behåll endast själva kalendern i en egen snygg box */
+.page-id-XXXX .saljkalender-app {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  padding: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+/* Säkerställ att bakgrunden utanför är vit */
+.page-id-XXXX body {
+  background: #fff !important;
+}
