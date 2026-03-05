@@ -552,3 +552,22 @@ body {
 .page-id-XXXX body {
   background: #fff !important;
 }
+
+/* ================================
+   FULL BREDD FÖR HTML-BLOCK GLOBALT
+   ================================ */
+
+/* Enfolds container – tillåt full bredd */
+#main .container {
+    max-width: 1600px !important;
+    width: 95% !important;
+}
+
+/* Ta bort begränsning på kodblock/HTML-block */
+.avia_codeblock,
+.avia_codeblock .main-container {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
