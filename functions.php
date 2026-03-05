@@ -194,7 +194,6 @@ add_filter( 'wp_mail_from_name', function( $name ) {
     return $name;
 });
 
-
 add_filter( 'wp_new_user_notification_email', function( $wp_new_user_notification_email, $user, $blogname ) {
     if ( get_current_blog_id() !== 13 ) return $wp_new_user_notification_email;
     $key = get_password_reset_key( $user );
@@ -313,37 +312,6 @@ function enfold_child_enqueue_styles() {
         filemtime( get_stylesheet_directory() . '/style.css' ) 
     );
 }
-
-/* ------------------------------
-   Full bredd för HTML-block (alla sidor)
---------------------------------*/
-add_action('wp_head', function() {
-    echo '<style>
-        /* Enfold: ta bort max-bredd på content-wrapper */
-        #main .entry-content,
-        #main .entry-content-wrap,
-        .av-content-full.av-page-builder-el,
-        .template-page #main .entry-content {
-            max-width: 100% !important;
-            padding-left: 0 !important;
-            padding-right: 0 !important;
-        }
-
-        /* Behåll normal bredd på vanlig text/rubriker */
-        #main .entry-content > p,
-        #main .entry-content > h1,
-        #main .entry-content > h2,
-        #main .entry-content > h3,
-        #main .entry-content > ul,
-        #main .entry-content > ol {
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-    </style>';
-});
 
 
 function child_enqueue_scripts() {
