@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VMC Intranät</title>
+  <style>
+    /* Container för alla kort */
+    .main-container {
+      max-width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .vmc-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(310px, 1fr));
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+    }
+
+    @media (max-width: 1200px) {
+      .vmc-cards-grid { 
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .vmc-cards-grid { 
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+    }
+
+    /* Individuella kort */
+    .vmc-info-card {
+      background: #ffffff;
+      border: 1px solid #d1d5db;
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      min-height: 240px;
+      width: 100%;
+    }
+
+    .vmc-info-card:hover {
+      border-color: #004F9F;
+      box-shadow: 0 8px 24px rgba(0, 79, 159, 0.15);
+      transform: translateY(-4px);
+    }
+
+    /* Rubrik och ikon-sektion */
+    .vmc-card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 14px;
+    }
+
+    .vmc-card-heading {
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: #1e293b;
+      margin: 0;
+      line-height: 1.3;
+    }
+
+    .vmc-card-icon {
+      width: 54px;
+      height: 54px;
+      min-width: 54px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      color: #fff;
+      background: linear-gradient(135deg, #004F9F, #003066);
+      box-shadow: 0 3px 10px rgba(0, 79, 159, 0.25);
+      transition: transform 0.3s ease;
+    }
+
+    .vmc-info-card:hover .vmc-card-icon { 
+      transform: scale(1.08); 
+    }
+
+    /* Beskrivningstext */
+    .vmc-card-text {
+      color: #475569;
+      line-height: 1.6;
+      font-size: 1rem;
+      flex-grow: 1;
+      margin-bottom: 18px;
+    }
+
+    /* Knappar längst ner */
+    .vmc-card-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: auto;
+    }
+
+    .vmc-btn,
+    .vmc-btn-red {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: #fff !important;
+      transition: all 0.25s ease;
+      text-align: center;
+    }
+
+    .vmc-btn { 
+      background: linear-gradient(135deg, #004F9F, #003066);
+      box-shadow: 0 2px 6px rgba(0, 79, 159, 0.2);
+    }
+    
+    .vmc-btn:hover {
+      background: linear-gradient(135deg, #003873, #002147);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 79, 159, 0.3);
+    }
+
+    .vmc-btn-red { 
+      background: linear-gradient(135deg, #C81E1E, #991B1B);
+      box-shadow: 0 2px 6px rgba(200, 30, 30, 0.2);
+    }
+    
+    .vmc-btn-red:hover {
+      background: linear-gradient(135deg, #B91C1C, #7F1D1D);
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(200, 30, 30, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <div class="vmc-cards-grid">
+      
+      <!-- Kort 1: Färdriktning -->
+      <div class="vmc-info-card">
+        <div class="vmc-card-top">
+          <h2 class="vmc-card-heading">Färdriktning</h2>
+          <div class="vmc-card-icon">🧭</div>
+        </div>
+        <p class="vmc-card-text">Vår färdriktning visar vägen.</p>
+        <div class="vmc-card-actions">
+          <a href="https://vmc.outbb.com/org-styrning/" class="vmc-btn">Läs mer</a>
+        </div>
+      </div>
+
+      <!-- Kort 2: Målstyrning -->
+      <div class="vmc-info-card">
+        <div class="vmc-card-top">
+          <h2 class="vmc-card-heading">Målstyrning</h2>
+          <div class="vmc-card-icon">€</div>
+        </div>
+        <p class="vmc-card-text">Hur vi når målen och vad vi mäter.</p>
+        <div class="vmc-card-actions">
+          <a href="https://vmc.outbb.com/malnyckel/" class="vmc-btn">Läs mer</a>
+          <a href="http://verkstad.lan/" class="vmc-btn-red">Nuläge</a>
+        </div>
+      </div>
+
+      <!-- Kort 3: Våra processer -->
+      <div class="vmc-info-card">
+        <div class="vmc-card-top">
+          <h2 class="vmc-card-heading">Våra processer</h2>
+          <div class="vmc-card-icon">⚙️</div>
+        </div>
+        <p class="vmc-card-text">Hur vi arbetar i de olika avdelningarna.</p>
+        <div class="vmc-card-actions">
+          <a href="https://vmc.outbb.com/vara-proceser/" class="vmc-btn">Läs mer</a>
+        </div>
+      </div>
+
+      <!-- Kort 4: Årshjulet -->
+      <div class="vmc-info-card">
+        <div class="vmc-card-top">
+          <h2 class="vmc-card-heading">Årshjulet</h2>
+          <div class="vmc-card-icon">🏃</div>
+        </div>
+        <p class="vmc-card-text">Löpande månads- och veckoaktiviteter.</p>
+        <div class="vmc-card-actions">
+          <a href="https://vmc.outbb.com/ar-veckohjul/" class="vmc-btn">Läs mer</a>
+        </div>
+      </div>
+
+      <!-- Kort 5: Kvalitetsarbete -->
+      <div class="vmc-info-card">
+        <div class="vmc-card-top">
+          <h2 class="vmc-card-heading">Kvalitetsarbete</h2>
+          <div class="vmc-card-icon">⭐</div>
+        </div>
+        <p class="vmc-card-text">Stödjer oss på vägen.</p>
+        <div class="vmc-card-actions">
+          <a href="#" class="vmc-btn">Läs mer</a>
+        </div>
+      </div>
+
+      <!-- Kort 6: Personalhandboken -->
+      <div class="vmc-info-card">
+        <div class="vmc-card-top">
+          <h2 class="vmc-card-heading">Personalhandboken</h2>
+          <div class="vmc-card-icon">📋</div>
+        </div>
+        <p class="vmc-card-text">Reder ut det mesta.</p>
+        <div class="vmc-card-actions">
+          <a href="https://vmc.outbb.com/personalhandboken/" class="vmc-btn">Läs mer</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
