@@ -1,0 +1,477 @@
+<div id="vmc-navet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap');
+
+    #vmc-navet,
+    #vmc-navet * {
+      box-sizing: border-box;
+    }
+
+    #vmc-navet {
+      --surface: #ffffff;
+      --text: #0d2137;
+      --line: #e6ebf3;
+      --shadow: 0 12px 34px rgba(13, 33, 55, 0.08);
+      font-family: 'DM Sans', sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #f7faff 0%, #f2f6fb 100%);
+      border-radius: 16px;
+      padding: 14px;
+    }
+
+    #vmc-navet a,
+    #vmc-navet button {
+      font-family: inherit;
+    }
+
+    #vmc-navet a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    #vmc-navet .page-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.25fr) 270px;
+      gap: 12px;
+      align-items: start;
+    }
+
+    #vmc-navet .section-title {
+      margin: 4px 0 10px;
+      font-size: 14px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #5d6f88;
+      font-weight: 700;
+    }
+
+    #vmc-navet .quick-actions {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 16px;
+    }
+
+    #vmc-navet .quick-btn {
+      border: 1px solid #d3dff0;
+      background: #fff;
+      color: #154272;
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1;
+      min-height: 42px;
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      transition: background .16s ease, transform .16s ease, border-color .16s ease;
+    }
+
+    #vmc-navet .quick-btn:hover {
+      background: #edf4ff;
+      border-color: #bdd2ee;
+      transform: translateY(-1px);
+    }
+
+    #vmc-navet .quick-btn-soon {
+      cursor: default;
+      border-color: #e2d39b;
+      background: #fff9e7;
+      color: #78560a;
+    }
+
+    #vmc-navet .quick-btn-soon:hover {
+      transform: none;
+      background: #fff5d6;
+      border-color: #dcc57e;
+    }
+
+    #vmc-navet .soon-tag {
+      font-size: 12px;
+      font-weight: 700;
+      color: #85620f;
+      background: #ffeeb8;
+      border-radius: 999px;
+      padding: 4px 7px;
+      line-height: 1;
+    }
+
+    #vmc-navet .cards-top,
+    #vmc-navet .cards-bottom {
+      display: grid;
+      gap: 12px;
+    }
+
+    #vmc-navet .cards-top {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      margin-bottom: 12px;
+    }
+
+    #vmc-navet .cards-bottom {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    #vmc-navet .vmc-card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-top: 4px solid var(--accent);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+
+    #vmc-navet .card-header {
+      padding: 14px 14px 9px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 10px;
+    }
+
+    #vmc-navet .card-category {
+      margin-bottom: 4px;
+      font-size: 12px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+    }
+
+    #vmc-navet .card-title {
+      margin: 0;
+      font-size: 22px;
+      line-height: 1.2;
+      font-weight: 700;
+      color: #0d2137;
+    }
+
+    #vmc-navet .card-icon {
+      font-size: 2rem;
+      line-height: 1;
+    }
+
+    #vmc-navet .card-desc {
+      margin: 0 12px 12px;
+      padding: 11px 12px;
+      font-size: 16px;
+      line-height: 1.48;
+      color: #435064;
+      background: #f6f9fc;
+      border-left: 3px solid var(--accent);
+      border-radius: 0 9px 9px 0;
+    }
+
+    #vmc-navet .card-actions {
+      margin-top: auto;
+      padding: 0 12px 12px;
+      display: flex;
+      gap: 9px;
+      flex-wrap: wrap;
+    }
+
+    #vmc-navet .card-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      border-radius: 9px;
+      border: 1px solid transparent;
+      padding: 9px 14px;
+      font-size: 15px;
+      line-height: 1;
+      font-weight: 700;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      background: var(--accent);
+      color: #fff;
+      transition: transform .16s ease, opacity .16s ease;
+    }
+
+    #vmc-navet .card-btn:hover {
+      transform: translateY(-1px);
+      opacity: 0.93;
+    }
+
+    #vmc-navet .card-btn-light {
+      background: #edf4ff;
+      color: #143b68;
+      border-color: #cadcf4;
+    }
+
+    #vmc-navet .card-btn-nulage {
+      background: #fff3cd;
+      color: #7a5300;
+      border-color: #f0c040;
+    }
+
+    #vmc-navet .card-btn-nulage:hover {
+      background: #ffe9a0;
+      opacity: 1;
+    }
+
+    #vmc-navet .news-box {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+      border-top: 4px solid #0d2137;
+      overflow: hidden;
+      position: sticky;
+      top: 12px;
+      margin-top: 106px; /* nudged lower for tighter visual alignment with card row */
+      max-height: calc(100vh - 90px);
+      overflow-y: auto;
+    }
+
+    #vmc-navet .news-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.62rem;
+      line-height: 1.2;
+      text-align: center;
+      color: #0d2137;
+      padding: 14px 12px 12px;
+      border-bottom: 1px solid #e8edf5;
+    }
+
+    #vmc-navet .news-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #vmc-navet .news-item {
+      padding: 12px 13px;
+      border-bottom: 1px solid #eff3f9;
+      transition: background .16s ease;
+    }
+
+    #vmc-navet .news-item:last-child { border-bottom: none; }
+    #vmc-navet .news-item:hover { background: #f6f9fc; }
+
+    #vmc-navet .news-badge {
+      display: inline-block;
+      margin-bottom: 4px;
+      border-radius: 6px;
+      border: 1px solid #f0c040;
+      background: #fff3cd;
+      color: #7a5300;
+      font-size: 12px;
+      font-weight: 700;
+      padding: 3px 7px;
+      line-height: 1.2;
+    }
+
+    #vmc-navet .news-date {
+      color: #8997aa;
+      font-size: 13px;
+      margin-bottom: 3px;
+    }
+
+    #vmc-navet .news-link {
+      display: block;
+      color: #102f52;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+
+    #vmc-navet .news-link:hover { color: #1b4f8a; }
+
+    #vmc-navet .news-loading {
+      padding: 18px 14px;
+      text-align: center;
+      color: #7f8ea3;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    #vmc-navet .card-styrning { --accent: #1b4f8a; }
+    #vmc-navet .card-drift    { --accent: #1a9090; }
+    #vmc-navet .card-arshjul  { --accent: #2aaa70; }
+    #vmc-navet .card-personal { --accent: #6a5aaa; }
+    #vmc-navet .card-murre    { --accent: #c0392b; }
+
+    #vmc-navet a:focus-visible,
+    #vmc-navet button:focus-visible {
+      outline: 3px solid #7fb2ff;
+      outline-offset: 2px;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 980px) {
+      #vmc-navet .page-layout {
+        grid-template-columns: 1fr;
+      }
+
+      #vmc-navet .news-box {
+        position: static;
+        margin-top: 0;
+        max-height: none;
+      }
+    }
+
+    @media (max-width: 760px) {
+      #vmc-navet .cards-top { grid-template-columns: 1fr; }
+      #vmc-navet .cards-bottom { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 520px) {
+      #vmc-navet {
+        border-radius: 10px;
+        padding: 12px;
+      }
+
+      #vmc-navet .cards-bottom {
+        grid-template-columns: 1fr;
+      }
+
+      #vmc-navet .card-title {
+        font-size: 20px;
+      }
+
+      #vmc-navet .quick-btn {
+        font-size: 14px;
+      }
+    }
+  </style>
+
+  <div class="page-layout">
+    <div class="cards-col">
+      <h2 class="section-title">Vanliga ärenden</h2>
+      <div class="quick-actions">
+        <button class="quick-btn" type="button">Sjukfrånvaro</button>
+        <button class="quick-btn" type="button">Ledighet</button>
+        <a class="quick-btn quick-btn-soon" href="" aria-disabled="true">Rapportera avvikelse <span class="soon-tag">Kommer snart</span></a>
+      </div>
+
+      <h2 class="section-title">Strategi & uppföljning</h2>
+      <div class="cards-top">
+        <article class="vmc-card card-styrning">
+          <div class="card-header">
+            <div>
+              <div class="card-category">Strategi</div>
+              <h3 class="card-title">Styrning &amp; uppföljning</h3>
+            </div>
+            <span class="card-icon" aria-hidden="true">🧭</span>
+          </div>
+          <p class="card-desc">Riktning, mål och uppföljning samlat på ett ställe.</p>
+          <div class="card-actions">
+            <a href="https://vmc.outbb.com/org-styrning/" class="card-btn">Färdriktning</a>
+            <a href="https://vmc.outbb.com/malnyckel/" class="card-btn card-btn-light">Målstyrning</a>
+            <a href="http://verkstad.lan/" class="card-btn card-btn-nulage">⚡ Nuläge</a>
+          </div>
+        </article>
+
+        <article class="vmc-card card-drift">
+          <div class="card-header">
+            <div>
+              <div class="card-category">Drift</div>
+              <h3 class="card-title">Arbetssätt &amp; kvalitet</h3>
+            </div>
+            <span class="card-icon" aria-hidden="true">⚙️</span>
+          </div>
+          <p class="card-desc">Processer och förbättringar för det dagliga arbetet.</p>
+          <div class="card-actions">
+            <a href="https://vmc.outbb.com/vara-proceser/" class="card-btn">Våra processer</a>
+            <a href="#" class="card-btn">Vårt kvalitetsarbete</a>
+          </div>
+        </article>
+      </div>
+
+      <h2 class="section-title">Dagligt arbete</h2>
+      <div class="cards-bottom">
+        <article class="vmc-card card-arshjul">
+          <div class="card-header">
+            <div>
+              <div class="card-category">Planering</div>
+              <h3 class="card-title">Årshjulet</h3>
+            </div>
+            <span class="card-icon" aria-hidden="true">📅</span>
+          </div>
+          <p class="card-desc">Vad som ska göras, när och av vem.</p>
+          <div class="card-actions"><a href="https://vmc.outbb.com/ar-veckohjul/" class="card-btn">Öppna Årshjulet</a></div>
+        </article>
+
+        <article class="vmc-card card-personal">
+          <div class="card-header">
+            <div>
+              <div class="card-category">HR &amp; regler</div>
+              <h3 class="card-title">Personalhandboken</h3>
+            </div>
+            <span class="card-icon" aria-hidden="true">📋</span>
+          </div>
+          <p class="card-desc">Regler, ledighet och villkor i en sammanhållen guide.</p>
+          <div class="card-actions"><a href="https://vmc.outbb.com/personalhandboken/" class="card-btn">Öppna handboken</a></div>
+        </article>
+
+        <article class="vmc-card card-murre">
+          <div class="card-header">
+            <div>
+              <div class="card-category">Assistent</div>
+              <h3 class="card-title">Murre</h3>
+            </div>
+            <span class="card-icon" aria-hidden="true">🐾</span>
+          </div>
+          <p class="card-desc">Snabb hjälp om rutiner, regler och interna processer.</p>
+          <div class="card-actions"><button class="card-btn" type="button">Chatta med Murre</button></div>
+        </article>
+      </div>
+    </div>
+
+    <aside class="news-box" aria-label="Nyheter">
+      <div class="news-title">Nyheter</div>
+      <ul class="news-list" id="newsList"><li class="news-loading">Laddar nyheter...</li></ul>
+    </aside>
+  </div>
+
+  <script>
+    (async function loadNews() {
+      const newsList = document.getElementById('newsList');
+      const base = 'https://vmc.outbb.com/wp-json/wp/v2';
+
+      try {
+        const cats = await fetch(`${base}/categories?slug=intranat-nyhet`).then(r => r.json());
+
+        if (!cats.length) {
+          newsList.innerHTML = '<li class="news-loading">Inga nyheter just nu.</li>';
+          return;
+        }
+
+        const posts = await fetch(`${base}/posts?categories=${cats[0].id}&per_page=7&_fields=id,title,date,link`).then(r => r.json());
+
+        if (!posts.length) {
+          newsList.innerHTML = '<li class="news-loading">Inga nyheter just nu.</li>';
+          return;
+        }
+
+        newsList.innerHTML = posts.map((post, idx) => {
+          const date = new Date(post.date).toLocaleDateString('sv-SE', {
+            year: 'numeric',
+            month: '2-digit',
+            day: '2-digit'
+          });
+
+          const badge = idx === 0 ? '<span class="news-badge">Senaste</span>' : '';
+
+          return `
+            <li class="news-item">
+              ${badge}
+              <div class="news-date">${date}</div>
+              <a class="news-link" href="${post.link}">${post.title.rendered}</a>
+            </li>
+          `;
+        }).join('');
+      } catch (error) {
+        newsList.innerHTML = '<li class="news-loading">Kunde inte ladda nyheter.</li>';
+      }
+    })();
+  </script>
+</div>
