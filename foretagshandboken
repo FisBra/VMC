@@ -1,0 +1,731 @@
+<!-- VMC Personalhandbok – fullständig med riktigt innehåll -->
+
+<section class="vmc-hb">
+  <header class="vmc-hero">
+    <div class="vmc-hero-top">
+      <div>
+        <h1>Personalhandbok</h1>
+        <p class="vmc-lead">
+          Ett praktiskt stöd i vardagen – rutiner, policys och riktlinjer – och en spegling av vår kultur, våra värderingar och vår gemensamma färdriktning.
+        </p>
+        <div class="vmc-cta-row">
+          <div class="vmc-cta vmc-cta--wip" aria-label="Visselblåsning – under framtagande">
+            <span class="vmc-cta-ic">🪈</span>
+            <span class="vmc-cta-txt">
+              <strong>Visselblåsning <span class="vmc-wip-badge">Under framtagande</span>
+                <span class="vmc-tooltip-wrap">
+                  <span class="vmc-tooltip-trigger" tabindex="0">?</span>
+                  <span class="vmc-tooltip-box" role="tooltip">
+                    Visselblåsning innebär att du kan rapportera allvarliga oegentligheter – som lagbrott, säkerhetsrisker eller ekonomiska oegentligheter – utan rädsla för negativa konsekvenser. Du är skyddad enligt lag.
+                    <a href="https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2021890-om-skydd-for-personer-som_sfs-2021-890/" target="_blank" rel="noopener">Läs lagen (SFS 2021:890) →</a>
+                  </span>
+                </span>
+              </strong>
+              <span>Ett rapporteringsformulär är under framtagande och kommer inom kort.</span>
+            </span>
+          </div>
+          <div class="vmc-cta-note">
+            Har du något du vill rapportera? Kontakta VD direkt och konfidentiellt tills formuläret är på plats.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="vmc-cards">
+      <div class="vmc-card">
+        <div class="vmc-ic">🎯</div>
+        <div>
+          <div class="vmc-card-title">Syfte</div>
+          <div class="vmc-card-text">Tydlighet, enhetlighet och lätt att hitta rätt i vardagen.</div>
+        </div>
+      </div>
+      <div class="vmc-card">
+        <div class="vmc-ic">📄</div>
+        <div>
+          <div class="vmc-card-title">Kompletterar</div>
+          <div class="vmc-card-text">Lag, anställningsavtal och kollektivavtal.</div>
+        </div>
+      </div>
+      <div class="vmc-card">
+        <div class="vmc-ic">🔄</div>
+        <div>
+          <div class="vmc-card-title">Levande dokument</div>
+          <div class="vmc-card-text">Uppdateras löpande av ledningsgruppen. Senaste version gäller.</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="vmc-tabs">
+    <div class="vmc-tabbar" role="tablist" aria-label="Personalhandbok – flikar">
+      <button class="vmc-tab is-active" data-tab="tab-1" role="tab">1. Start</button>
+      <button class="vmc-tab" data-tab="tab-2" role="tab">2. Anställning</button>
+      <button class="vmc-tab" data-tab="tab-3" role="tab">3. Arbetstid</button>
+      <button class="vmc-tab" data-tab="tab-4" role="tab">4. Ledighet</button>
+      <button class="vmc-tab" data-tab="tab-5" role="tab">5. Frånvaro</button>
+      <button class="vmc-tab" data-tab="tab-6" role="tab">6. Arbetsmiljö</button>
+      <button class="vmc-tab" data-tab="tab-7" role="tab">7. Utveckling</button>
+      <button class="vmc-tab" data-tab="tab-8" role="tab">8. Förmåner</button>
+      <button class="vmc-tab" data-tab="tab-9" role="tab">9. Rutiner</button>
+      <button class="vmc-tab" data-tab="tab-10" role="tab">10. Lagar & kontakt</button>
+    </div>
+
+    <div class="vmc-panels">
+
+      <!-- 1. Start -->
+      <div class="vmc-panel is-active" id="tab-1" role="tabpanel">
+        <div class="vmc-panel-card">
+          <h2>Vision, affärsidé och värderingar</h2>
+          <div class="vmc-acc">
+
+            <button class="vmc-acc-btn" aria-expanded="false">Vision & affärsidé</button>
+            <div class="vmc-acc-body">
+              <p><strong>VMC – det kompletta bilföretaget på Gotland.</strong></p>
+              <p>Genom närhet till både kunder och kollegor, moderna lokaler och ett brett utbud skapar vi mervärde. Vår ambition är att leverera högsta möjliga upplevelse genom kompetens, kundvänlighet och kvalitet.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Våra värderingar</button>
+            <div class="vmc-acc-body">
+              <ul>
+                <li><strong>Ansvar</strong> – Vi tar ansvar för vårt arbete, våra kunder och varandra.</li>
+                <li><strong>Kommunikation</strong> – Vi pratar med varandra, inte om varandra, och delar kunskap för att skapa delaktighet.</li>
+                <li><strong>Framåtsträvande</strong> – Vi söker ständigt nya och bättre sätt att arbeta, utvecklas och bidra till helheten.</li>
+              </ul>
+              <div class="vmc-callout">Vi är inte bara medarbetare – vi är medansvariga.</div>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Vår syn på medarbetarskapet</button>
+            <div class="vmc-acc-body">
+              <p>På VMC ser vi varje medarbetare som en viktig del av helheten. Att vara medarbetare innebär inte bara att utföra sitt arbete, utan också att bidra till arbetsglädje, utveckling och framåtanda. Vi är övertygade om att vi lyckas bäst när vi tar ansvar tillsammans.</p>
+              <p>Ledarskap är inte en titel utan ett engagemang. Alla medarbetare kan bidra till att forma framtiden. Genom dialog, måluppföljning och delaktighet skapar vi en kultur där vi växer tillsammans.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Anställning -->
+      <div class="vmc-panel" id="tab-2" role="tabpanel">
+        <div class="vmc-panel-card">
+          <h2>Anställningsvillkor</h2>
+          <div class="vmc-acc">
+
+            <button class="vmc-acc-btn" aria-expanded="false">Provanställning</button>
+            <div class="vmc-acc-body">
+              <p>Nyanställda genomgår normalt en provanställning om sex (6) månader, om inte annat anges i anställningsavtalet. Under provanställningen kan anställningen avslutas av båda parter med en ömsesidig uppsägningstid om 14 dagar, om inte annat avtalats.</p>
+              <p>Mot slutet av provanställningsperioden genomförs ett uppföljningssamtal där chef och medarbetare utvärderar anställningen och bekräftar om tillsvidareanställning övergår.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Anställningsavtal & befattningsbeskrivning</button>
+            <div class="vmc-acc-body">
+              <p>Alla anställda på VMC ska ha ett skriftligt <strong>anställningsavtal</strong> som reglerar anställningsform, arbetstid, lön och övriga villkor. Avtalet undertecknas av både medarbetare och behörig chef innan anställningen påbörjas. Har du frågor om ditt avtal är du välkommen att kontakta din chef eller VD.</p>
+              <p>Alla medarbetare ska även ha en aktuell <strong>befattningsbeskrivning</strong> som tydliggör arbetsuppgifter, ansvar och befogenheter för rollen. Tydliga befattningsbeskrivningar är ett krav inom ramen för våra certifieringar enligt ISO 9001 och ISO 14001. <strong>Befattningsbeskrivningarna håller för närvarande på att uppdateras</strong> – ny version meddelas när den är klar.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Uppsägningstid</button>
+            <div class="vmc-acc-body">
+              <p>Uppsägningstiden regleras av gällande kollektivavtal och individuellt anställningsavtal. Generella riktlinjer (kan variera):</p>
+              <ul>
+                <li>0–2 år: 1 månads uppsägningstid</li>
+                <li>2–4 år: 2 månaders uppsägningstid</li>
+                <li>4+ år: 3 månaders uppsägningstid (eller enligt kollektivavtal)</li>
+              </ul>
+              <p>Uppsägning ska alltid ske skriftligen. Kontakta din chef eller ekonomiavdelningen för din specifika uppsägningstid.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Avslutssamtal & tjänstgöringsomdöme</button>
+            <div class="vmc-acc-body">
+              <p>När en medarbetare lämnar VMC genomförs alltid ett avslutande samtal. Syftet är att:</p>
+              <ul>
+                <li>Ge återkoppling till medarbetaren</li>
+                <li>Fånga upp synpunkter som kan förbättra vår verksamhet</li>
+                <li>Skapa en respektfull och tydlig avslutning på anställningen</li>
+              </ul>
+              <p>När anställningen avslutas kan medarbetaren begära ett tjänstgöringsintyg med en beskrivning av arbetsuppgifter och en sammanfattande bedömning av prestationer.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. Arbetstid -->
+      <div class="vmc-panel" id="tab-3" role="tabpanel">
+        <div class="vmc-panel-card">
+          <h2>Arbetstid & öppettider</h2>
+          <div class="vmc-acc">
+
+            <button class="vmc-acc-btn" aria-expanded="false">Öppettider</button>
+            <div class="vmc-acc-body">
+              <ul>
+                <li><strong>Vardagar:</strong> 07.00–17.00</li>
+                <li><strong>Lördagar:</strong> Stängt</li>
+                <li><strong>Vintertid (okt–mars):</strong> 07.00–18.00, lördag 10.00–13.00</li>
+                <li><strong>Dag före röd dag:</strong> Stänger kl. 15.00</li>
+              </ul>
+              <p>Bekräfta aktuella vintertidsdatum med din chef.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Arbetstid & övertid</button>
+            <div class="vmc-acc-body">
+              <p>Arbetstiden regleras enligt anställningsavtal och gällande kollektivavtal. Ordinarie arbetstid framgår av ditt avtal och varierar beroende på roll och avdelning.</p>
+              <p>Vi använder en <strong>timbank</strong> för att hantera övertid och mertid på ett flexibelt sätt. Timbanken fungerar som ett eget konto där avvikelser från ordinarie arbetstid bokförs:</p>
+              <ul>
+                <li>Timbanken får som lägst uppgå till <strong>−20 timmar</strong> (minussaldo).</li>
+                <li>Timbanken får som högst uppgå till <strong>+40 timmar</strong> (plussaldo).</li>
+                <li>Övertid och mertid ska alltid <strong>godkännas av närmaste chef i förväg</strong>.</li>
+                <li>Uttag från timbanken – som ledighet eller kompensation – görs enligt överenskommelse med chef och i enlighet med kollektivavtalet.</li>
+              </ul>
+              <p>Om timbanken når gränsvärdet i någon riktning ska chef och medarbetare snarast möjligt planera för uttag eller reglering. Saldot följs upp löpande och stäms av vid medarbetarsamtal.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Registrering av arbetstid</button>
+            <div class="vmc-acc-body">
+              <p>All arbetstid registreras i <strong>Tidomat</strong>. Se till att du registrerar korrekt varje dag. För utbildning i Tidomat hänvisas till Ekonomiavdelningen.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 4. Ledighet -->
+      <div class="vmc-panel" id="tab-4" role="tabpanel">
+        <div class="vmc-panel-card">
+          <h2>Ledighet</h2>
+          <div class="vmc-acc">
+
+            <button class="vmc-acc-btn" aria-expanded="false">Ansökan om ledighet</button>
+            <div class="vmc-acc-body">
+              <p>Ansökan om ledighet görs i <strong>Tidomat</strong>. Närmaste chef ska alltid underrättas separat så att vi även har en dialog om ledigheten.</p>
+              <p>Längre ledighet (en dag eller mer) ska lämnas in senast <strong>tre veckor</strong> före planerad frånvaro. Chefen ger besked inom <strong>tre dagar</strong> och beviljad ledighet rapporteras till ekonomiavdelningen. Kortare ledighet hanteras löpande av närmaste chef.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Semester</button>
+            <div class="vmc-acc-body">
+              <p>Vi följer semesterlagen. Semesteråret löper från den <strong>1 april till den 31 mars</strong> och omfattar <strong>25 dagar</strong> per år.</p>
+              <p>För att säkerställa en ansvarsfull hantering – både för medarbetarna och för VMC:s semesterskuld – ska betalda semesterdagar i första hand tas ut under det semesterår de tjänas in.</p>
+              <p>Som medarbetare ansvarar du för att planera och ansöka om semester i god tid i dialog med din närmaste chef. Detta görs inom avdelningen i samband med att semesterlistan skickas ut.</p>
+              <p><strong>Målsättningen är att maximalt 5 semesterdagar sparas till nästkommande semesterår.</strong></p>
+              <p>För att främja återhämtning ska varje medarbetare, så långt verksamheten medger, ta ut <strong>minst tre veckors sammanhängande semester</strong> under året.</p>
+              <p>Om semesterdagar inte planeras eller tas ut enligt dessa riktlinjer kan arbetsgivaren – efter dialog med medarbetaren och i enlighet med semesterlagen och gällande kollektivavtal – besluta om förläggning av kvarvarande semesterdagar före den 31 mars.</p>
+              <p>Första året kan semester tas ut som förskottssemester, men då utan semesterlön. Uppstår en semesterskuld regleras den vid avslutad anställning genom avdrag på slutlönen. <strong>Om du själv säger upp dig skrivs skulden av efter fem (5) år.</strong></p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Föräldraledighet</button>
+            <div class="vmc-acc-body">
+              <p>Vi vill underlätta för både kvinnor och män att förena arbete och föräldraskap. Under föräldraledigheten skickar vi hem information och du bjuds in till personalaktiviteter.</p>
+              <p>Rätt till föräldraledighet gäller för: vårdnadshavare, adoptivföräldrar samt sambo/make/maka som stadigvarande bor med förälder.</p>
+              <ul>
+                <li>Ledighet ska anmälas senast <strong>två månader</strong> i förväg.</li>
+                <li>Vid tidigare återgång i arbete kan VMC skjuta upp återgången en månad.</li>
+                <li>Tillfällig vård av barn (VAB) ska anmälas samma dag.</li>
+                <li>Föräldraledighet är semesterlönegrundande i 120 dagar per förälder (180 dagar för ensamstående).</li>
+              </ul>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Permission vid dödsfall & begravning</button>
+            <div class="vmc-acc-body">
+              <p>Vid nära anhörigs bortgång beviljas permission med lön enligt gällande praxis i Unionens avtal.</p>
+              <ul>
+                <li>1 dag betald permission i samband med dödsfall.</li>
+                <li>1 dag betald permission i samband med begravning, urnsättning eller gravsättning.</li>
+                <li>Om begravningen äger rum på annan ort kan ytterligare 1 dags betald permission beviljas efter överenskommelse med närmaste chef.</li>
+              </ul>
+              <p>Behövs mer ledighet i anslutning kan den tas ut som semester eller tjänstledighet.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 5. Frånvaro -->
+      <div class="vmc-panel" id="tab-5" role="tabpanel">
+        <div class="vmc-panel-card">
+          <h2>Frånvaro & sjukanmälan</h2>
+          <div class="vmc-acc">
+
+            <button class="vmc-acc-btn" aria-expanded="false">Sjukanmälan</button>
+<div class="vmc-acc-body">
+  <p>Vid sjukdom gäller följande rutiner:</p>
+  <ul>
+    <li>Ring <strong>Medhelp Sjukfrånvaro</strong> – <a href="tel:0812112308">08-121 123 08</a> – för sjukanmälan och möjlighet att prata med en sjuksköterska. Här friskanmäler du dig också.</li>
+    <li>Närmaste chef ska kontaktas via meddelande eller telefonsamtal <strong>före arbetspassets start, senast kl. 07:00</strong>.</li>
+    <li>Om chefen inte kan nås, kontakta admin eller en kollega som för informationen vidare.</li>
+    <li>Om du inte är friskanmäld inom tre dagar kontaktar Medhelp dig för en uppföljning.</li>
+  </ul>
+  <p>Karensavdrag görs från första sjukdagen enligt gällande lag.</p>
+</div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Läkarintyg</button>
+            <div class="vmc-acc-body">
+              <p>Läkarintyg krävs från och med <strong>dag åtta</strong> i sjukperioden. Intyget lämnas till närmaste chef som rapporterar vidare till ekonomiavdelningen.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Friskanmälan</button>
+            <div class="vmc-acc-body">
+              <p>Friskanmälan görs till närmaste chef <strong>senast dagen innan</strong> du planerar att återgå i arbete.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Rehabilitering</button>
+            <div class="vmc-acc-body">
+              <p>VMC arbetar aktivt med rehabilitering. Vid längre sjukskrivning upprättas en rehabiliteringsplan i samarbete med medarbetaren, chef, företagshälsovård och Försäkringskassan.</p>
+              <p><strong>Företagshälsovård:</strong> Rocus, 0498 290 290</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 6. Arbetsmiljö -->
+      <div class="vmc-panel" id="tab-6" role="tabpanel">
+        <div class="vmc-panel-card">
+          <h2>Arbetsmiljö, trygghet & beteenden</h2>
+          <div class="vmc-acc">
+
+            <button class="vmc-acc-btn" aria-expanded="false">VMC:s arbetsmiljövision</button>
+            <div class="vmc-acc-body">
+              <p>På VMC ska alla medarbetare känna sig trygga, respekterade och må bra. Vi tar gemensamt ansvar för en arbetsmiljö som är säker, hållbar och utvecklande. Arbetsglädje, hälsa och respekt är grunden för vår kultur.</p>
+              <p>Vi följer Arbetsmiljöverkets föreskrift AFS 2015:4 om organisatorisk och social arbetsmiljö och arbetar aktivt för att:</p>
+              <ul>
+                <li>Skapa balans mellan krav och resurser</li>
+                <li>Ha tydliga roller och ansvar</li>
+                <li>Förebygga ohälsosam stress</li>
+                <li>Ha nolltolerans mot kränkande särbehandling</li>
+              </ul>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Skyddsombud</button>
+            <div class="vmc-acc-body">
+              <p>VMC har skyddsombud som är valda av personalen och som arbetar för en trygg och säker arbetsmiljö. Som medarbetare ansvarar du själv för att din arbetsplats är städad och säker.</p>
+              <p>Varje fredag genomförs en gemensam veckostädning av den egna arbetsplatsen och de allmänna utrymmena. En skyddsrond och miljörond genomförs varje kvartal, enligt VMC:s årshjul.</p>
+              <p><strong>Skyddsombud på VMC:</strong></p>
+              <ul>
+                <li>Simon Johansson</li>
+                <li>Per Björklund</li>
+                <li>Johan Gardelius</li>
+              </ul>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Visselblåsning 🚧</button>
+            <div class="vmc-acc-body">
+              <div class="vmc-wip-banner">
+                <span class="vmc-wip-icon">🚧</span>
+                <div>
+                  <strong>Under framtagande</strong>
+                  <p>Ett digitalt rapporteringsformulär är under framtagande och kommer inom kort. VMC skyddar den som i god tro rapporterar missförhållanden i enlighet med visselblåsarlagen (SFS 2021:890).</p>
+                </div>
+              </div>
+              <p>Har du något du vill rapportera <strong>redan nu</strong>? Kontakta VD direkt och konfidentiellt.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Alkohol- & drogpolicy</button>
+            <div class="vmc-acc-body">
+              <p>VMC:s alkohol- och drogpolicy gäller alla medarbetare, oavsett anställningsform.</p>
+              <ul>
+                <li>Ingen får vara påverkad av droger eller alkohol under arbetstid eller på arbetsplatsen.</li>
+                <li>Drogtester kan genomföras utan föranmälan.</li>
+                <li>På utbildningar accepteras endast en öl eller ett glas vin till middagen som måltidsdryck.</li>
+                <li>Vid representation ska alltid alkoholfria alternativ erbjudas.</li>
+              </ul>
+              <p>Medarbetare med problem ska få stöd och rehabilitering så tidigt som möjligt. Kontakta din chef, skyddsombud, företagshälsovård (Rocus 0498 290 290) eller facklig organisation.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Arbetskläder & personlig utrustning</button>
+            <div class="vmc-acc-body">
+              <p>VMC tillhandahåller arbetskläder utifrån vad din roll kräver. Du ansvarar för att kläderna hålls hela och rena. Klädseln ska alltid motsvara kundernas förväntningar och bidra till ett professionellt intryck.</p>
+              <p>Från din första arbetsdag får du material och utrustning som är nödvändig för ditt arbete. Du ansvarar för utrustningen under hela anställningstiden. Vid anställningens slut ska all tilldelad utrustning återlämnas i gott skick.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 7. Utveckling -->
+      <div class="vmc-panel" id="tab-7" role="tabpanel">
+        <div class="vmc-panel-card">
+          <h2>Utveckling & samtal</h2>
+          <div class="vmc-acc">
+
+            <button class="vmc-acc-btn" aria-expanded="false">Utvecklings- & lönesamtal</button>
+            <div class="vmc-acc-body">
+              <p>Varje medarbetare på VMC ska varje år ha tre samtal med närmaste chef:</p>
+              <ul>
+                <li><strong>Utvecklingssamtal</strong> – fokus på trivsel, arbetsmiljö och individuell utveckling</li>
+                <li><strong>Uppföljningssamtal</strong> – följer upp mål och överenskommelser från utvecklingssamtalet</li>
+                <li><strong>Lönesamtal</strong> – genomförs i samband med den årliga lönerevisionen</li>
+              </ul>
+              <p>Samtalen följer <strong>årshjulet</strong> och genomförs vid fastställda tidpunkter under året så att alla medarbetare behandlas likvärdigt och i rätt ordning.</p>
+              <p>För att skapa struktur och jämförbarhet används gemensamma mallar och underlag. Mallar för samtalen samt information om löneprocessen hittar du på <a href="........" style="color:var(--accent);font-weight:600;">intranätets löne- och HR-sida →</a></p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Målsamtal</button>
+            <div class="vmc-acc-body">
+              <p>VMC är en <strong>målstyrd organisation</strong> och vår målsättning är att samtliga befattningar ska ha tydliga individuella mål samt regelbundna målsamtal med närmaste chef.</p>
+              <p>Syftet med målsamtalen är att:</p>
+              <ul>
+                <li>Följa upp din utveckling och dina individuella mål</li>
+                <li>Identifiera eventuella hinder och behov av stöd</li>
+                <li>Säkerställa att du har rätt förutsättningar för att nå dina mål</li>
+                <li>Hålla en löpande dialog så att avvikelser fångas upp tidigt</li>
+              </ul>
+              <p>Hur ofta målsamtal hålls varierar beroende på roll och situation, men ska ske <strong>regelbundet</strong> under året. Din närmaste chef ansvarar för att initiera och boka in samtalen.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Kompetensutveckling</button>
+            <div class="vmc-acc-body">
+              <p>Vi strävar efter att alla medarbetare ska ha rätt kompetens för sin roll och möjlighet att utvecklas. I så stor utsträckning som möjligt följer vi respektive bilmärkes utbildningsplaner.</p>
+              <p><strong>Misskötsel under utbildning:</strong> Om en medarbetare missköter sig under utbildning (t.ex. bristande engagemang eller påverkan av alkohol/droger) kan påföljden bli skriftlig varning eller ersättningsskyldighet för utbildningskostnaden.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Kollektivavtal</button>
+            <div class="vmc-acc-body">
+              <p>VMC omfattas av gällande kollektivavtal med:</p>
+              <ul>
+                <li>IF Metall</li>
+                <li>Unionen</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 8. Förmåner -->
+      <div class="vmc-panel" id="tab-8" role="tabpanel">
+        <div class="vmc-panel-card">
+          <h2>Förmåner & personalrabatter</h2>
+          <div class="vmc-acc">
+
+            <button class="vmc-acc-btn" aria-expanded="false">Friskvård & hälsa</button>
+            <div class="vmc-acc-body">
+              <p>VMC vill skapa goda förutsättningar för hälsa och välmående. Som medarbetare erbjuds du ett <strong>årskort på Form</strong>. För andra friskvårdsaktiviteter kontaktar du ekonomiavdelningen.</p>
+              <p>Om ditt arbete kräver det har du rätt till bidrag för <strong>terminalglasögon</strong>, enligt gällande lagstiftning.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Frukost & dryck</button>
+            <div class="vmc-acc-body">
+              <ul>
+                <li>En enkel frukost med bröd och pålägg erbjuds dagligen för alla medarbetare.</li>
+                <li>Kaffe, te och varm choklad finns alltid tillgängligt.</li>
+                <li><strong>Viktigt:</strong> Kaffeautomaten i hallen är i första hand avsedd för kunder. Som medarbetare hämtar du dryck från köket.</li>
+                <li>Undvik att samlas kring kaffeautomaten i hallen – det kan störa kundupplevelsen.</li>
+              </ul>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Personalrabatt vid verkstadsarbete</button>
+            <div class="vmc-acc-body">
+              <p>Vid service, reparation och däckshotell av egen bil gäller <strong>20 % rabatt</strong> på ordinarie pris.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Internköp av bilar & utrustning</button>
+            <div class="vmc-acc-body">
+              <p>All försäljning sker genom sluten budgivning. Bud lämnas på särskild mall (se bilaga).</p>
+              <ul>
+                <li>Varje anställd får köpa maximalt <strong>tre bilar per år</strong>.</li>
+                <li>Respektive bil måste vara i den anställdes ägo i minst <strong>sex månader</strong>.</li>
+              </ul>
+              <p>Medarbetare har möjlighet att köpa material för privat bruk till inköpspris med ett påslag om <strong>10 %</strong>. Vid beställning ska <strong>registreringsnummer</strong> uppges till reservdelsavdelningen. Gäller egna eller närståendes bilar – med närstående avses <strong>sambo, make eller maka</strong>. Köpen ska ske i rimlig omfattning och regeln är inte avsedd för vidareförsäljning.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Privat nyttjande av verkstad & tvätthall</button>
+            <div class="vmc-acc-body">
+              <p>Arbete på egna eller närståendes bilar får ske under följande villkor:</p>
+              <ul>
+                <li>Endast utanför ordinarie arbetstid (efter kl. 16.00, men inte efter 22.00).</li>
+                <li>Ensamarbete är ej tillåtet – minst två anställda ska vara närvarande.</li>
+                <li>Endast material inköpt hos VMC/Lundins Bil får användas.</li>
+                <li>Lokalerna ska vara låsta och larmade när du lämnar.</li>
+                <li>Närstående definieras som make/maka/sambo och barn.</li>
+                <li>Allt arbete ska vara godkänt av närmaste chef.</li>
+                <li>Bilen ska vara borta från området inom 14 dagar efter arbetets start.</li>
+                <li>Lokalen ska återställas efter varje användning.</li>
+              </ul>
+              <div class="vmc-callout">Om reglerna inte följs kan arbetsgivaren ge skriftlig varning och kräva att nyckel/larmkod återlämnas.</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 9. Rutiner -->
+      <div class="vmc-panel" id="tab-9" role="tabpanel">
+        <div class="vmc-panel-card">
+          <h2>Rutiner & resurser</h2>
+          <div class="vmc-acc">
+
+            <button class="vmc-acc-btn" aria-expanded="false">Användande av företagets bilar</button>
+            <div class="vmc-acc-body">
+              <p>Företagets bilar är en del av VMC:s ansikte utåt. Uppträd alltid som en god representant i trafiken.</p>
+              <ul>
+                <li>Demobilar/testdrive får användas maximalt <strong>100 mil eller 10 tillfällen per år</strong>.</li>
+                <li>Därefter krävs körjournal och eventuell förmånsbeskattning.</li>
+              </ul>
+              <p>Provkörningar ska alltid ske på den markerade slingan (se bilaga).</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Resor i tjänsten</button>
+            <div class="vmc-acc-body">
+              <ul>
+                <li>Vid tjänsteresor utgår inget traktamente.</li>
+                <li>VMC står för faktiska kostnader för mat och dryck enligt överenskommelse med chef.</li>
+                <li>Ersättning sker <strong>endast mot kvitto</strong>.</li>
+                <li>Resor ska bokas så snart aktiviteten är fastställd för kostnadseffektiva lösningar.</li>
+                <li>Till middag är det tillåtet med upp till <strong>två öl eller två glas vin</strong> per person.</li>
+              </ul>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Sociala medier</button>
+            <div class="vmc-acc-body">
+              <ul>
+                <li>Inlägg i sociala medier får aldrig vara negativa eller nedlåtande om företaget.</li>
+                <li>Tänk på att du representerar VMC även utanför arbetsplatsen.</li>
+                <li>Vi uppmuntrar dig att vara stolt och bidra till en positiv bild av VMC.</li>
+              </ul>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Mobiltelefoner & hörlurar</button>
+            <div class="vmc-acc-body">
+              <ul>
+                <li>Privata mobiltelefoner och surfplattor får endast användas under arbetstid vid akuta ärenden och samtalen ska hållas korta.</li>
+                <li>I verkstaden är det <strong>förbjudet</strong> att använda hörlurar kopplade till privata telefoner.</li>
+                <li>Endast arbetstelefoner får kopplas till hörlurar i verkstadsmiljön.</li>
+              </ul>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Kök, raster & städning</button>
+            <div class="vmc-acc-body">
+              <p>VMC tillhandahåller köksutrustning. Alla ansvarar för att städa efter sig och hålla ordning i kök och lunchrum. Sopor ska tas ut till miljögården.</p>
+              <p>Varje fredag genomförs en gemensam veckostädning där både den egna arbetsplatsen och de allmänna utrymmena städas.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Datorer & IT</button>
+            <div class="vmc-acc-body">
+              <p>Företagets datorer får endast användas privat under raster eller utanför ordinarie arbetstid. Ansvaret för hur de används är alltid personligt.</p>
+              <p><strong>IT-support:</strong> Johan Olin</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 10. Lagar & kontakt -->
+      <div class="vmc-panel" id="tab-10" role="tabpanel">
+        <div class="vmc-panel-card">
+          <h2>Lagar, GDPR & kontakter</h2>
+          <div class="vmc-acc">
+
+            <button class="vmc-acc-btn" aria-expanded="false">Dataskydd & GDPR</button>
+            <div class="vmc-acc-body">
+              <p>VMC behandlar personuppgifter om medarbetare i enlighet med EU:s dataskyddsförordning (GDPR) och den svenska dataskyddslagen (2018:218).</p>
+              <p><strong>Vi behandlar bland annat:</strong> Namn, adress, personnummer och kontaktuppgifter, uppgifter om lön, arbetstid och frånvaro, utbildning, kompetens och prestation samt uppgifter registrerade i Tidomat och andra affärssystem.</p>
+              <p><strong>Dina rättigheter:</strong> Du har rätt att begära registerutdrag, begära rättelse av felaktiga uppgifter och i vissa fall begära att uppgifter raderas. Kontakta ekonomiavdelningen för frågor om dataskydd.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Diskriminering & jämställdhet</button>
+            <div class="vmc-acc-body">
+              <p>Sedan 2009 gäller en samlad diskrimineringslag. På VMC arbetar vi aktivt för jämställdhet och mot diskriminering. Det innebär att vi:</p>
+              <ul>
+                <li>Utjämnar och förhindrar skillnader i lön och villkor mellan kvinnor och män som utför lika arbete.</li>
+                <li>Främjar lika möjligheter till löneutveckling för alla.</li>
+                <li>Förebygger diskriminering på grund av kön, etnicitet, religion, sexuell läggning, funktionshinder, ålder eller könsidentitet.</li>
+              </ul>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Tystnadsplikt</button>
+            <div class="vmc-acc-body">
+              <p>Vissa befattningar inom VMC innebär tillgång till företagskänslig information. I dessa fall kan särskilda tystnadspliktsavtal krävas. Avtalen syftar till att skydda både företaget och våra kunder.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Försäkringar</button>
+            <div class="vmc-acc-body">
+              <p>VMC följer de försäkringslösningar som gäller enligt kollektivavtal med IF Metall och Unionen. Försäkringarna omfattar bland annat sjukdom, arbetsskador, pension och andra trygghetslösningar.</p>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Kontaktregister</button>
+            <div class="vmc-acc-body">
+              <div class="vmc-contact-grid">
+                <div class="vmc-contact-item">
+                  <div class="vmc-contact-label">Lön & administration</div>
+                  <div class="vmc-contact-value">Ekonomiavdelningen</div>
+                </div>
+                <div class="vmc-contact-item">
+                  <div class="vmc-contact-label">Sjukanmälan</div>
+                  <div class="vmc-contact-value">Ring närmaste chef. Vid behov: receptionen</div>
+                </div>
+                <div class="vmc-contact-item">
+                  <div class="vmc-contact-label">Skyddsombud / Arbetsmiljö</div>
+                  <div class="vmc-contact-value">Simon Johansson, Per Björklund, Johan Gardelius</div>
+                </div>
+                <div class="vmc-contact-item">
+                  <div class="vmc-contact-label">IF Metall</div>
+                  <div class="vmc-contact-value">Per Björklund, Simon Johansson</div>
+                </div>
+                <div class="vmc-contact-item">
+                  <div class="vmc-contact-label">Unionen</div>
+                  <div class="vmc-contact-value">Lena Falk</div>
+                </div>
+                <div class="vmc-contact-item">
+                  <div class="vmc-contact-label">Företagshälsovård</div>
+                  <div class="vmc-contact-value">Rocus – 0498 290 290</div>
+                </div>
+                <div class="vmc-contact-item">
+                  <div class="vmc-contact-label">IT-support</div>
+                  <div class="vmc-contact-value">Johan Olin</div>
+                </div>
+                <div class="vmc-contact-item">
+                  <div class="vmc-contact-label">Visselblåsning</div>
+                  <div class="vmc-contact-value"><a href="/visselblasning">Formulär på intranätet</a></div>
+                </div>
+              </div>
+            </div>
+
+            <button class="vmc-acc-btn" aria-expanded="false">Versionshistorik</button>
+            <div class="vmc-acc-body">
+              <p><strong>Version 1.0</strong> – [datum] – Ursprunglig version fastställd av ledningsgruppen.</p>
+              <p><strong>Version 1.1</strong> – [datum] – Tillägg: Sjukanmälan, Onboarding, Provanställning & Uppsägningstid, GDPR, Synpunkter & Visselblåsarfunktion, Kontaktregister, Versionshistorik.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- LÄST OCH FÖRSTÅTT -->
+  <div class="vmc-confirm-section" role="region" aria-label="Bekräfta att du läst personalhandboken">
+    <div class="vmc-confirm-inner">
+      <div class="vmc-confirm-icon" aria-hidden="true">✅</div>
+      <div class="vmc-confirm-text">
+        <h2 class="vmc-confirm-heading">Bekräfta att du har läst personalhandboken</h2>
+        <p class="vmc-confirm-lead">
+          Gå igenom alla tio avsnitt ovan innan du kvitterar. Din bekräftelse registreras med namn och datum.
+        </p>
+      </div>
+    </div>
+    <div class="vmc-confirm-checklist">
+      <div class="vmc-check-item"><span class="vmc-check-icon">📋</span><span>Gå igenom alla 10 avsnitt</span></div>
+      <div class="vmc-check-divider">→</div>
+      <div class="vmc-check-item"><span class="vmc-check-icon">✍️</span><span>Fyll i formuläret nedan</span></div>
+      <div class="vmc-check-divider">→</div>
+      <div class="vmc-check-item"><span class="vmc-check-icon">📊</span><span>Din bekräftelse sparas automatiskt</span></div>
+    </div>
+    <div class="vmc-confirm-form">
+      <p style="color:#6b7280;font-size:14px;text-align:center;">[ WPForms-formulär placeras här: <code>[wpforms id="XXXX"]</code> ]</p>
+    </div>
+  </div>
+
+</section>
+
+<style>
+  :root{
+    --bg:#f4f6f8;--card:#fff;--text:#1f2937;--muted:#4b5563;--line:#e5e7eb;
+    --accent:#0b5aa6;--accent-dark:#083d73;--accent-light:rgba(11,90,166,.08);
+    --green:#166534;--green-bg:#f0fdf4;--green-border:#bbf7d0;--green-accent:#16a34a;
+    --r:16px;--shadow:0 10px 25px rgba(0,0,0,.10);
+    --font-size-base:1rem;--font-size-sm:0.9rem;--font-size-xs:0.85rem;
+  }
+  .vmc-hb{max-width:1100px;margin:0 auto;color:var(--text);font-size:var(--font-size-base);line-height:1.65;font-family:inherit;}
+  .vmc-hb *{font-family:inherit;}
+  .vmc-hero{background:linear-gradient(180deg,#fff,var(--bg));border:1px solid var(--line);border-radius:var(--r);padding:20px;box-shadow:var(--shadow);}
+  .vmc-hero-top{display:flex;gap:16px;justify-content:center;align-items:flex-start;flex-wrap:wrap;text-align:center;}
+  .vmc-hero-top > div:first-child{width:100%;}
+  .vmc-hero h1{margin:0 0 8px;font-size:1.875rem;line-height:1.1;color:var(--text);text-align:center;}
+  .vmc-lead{margin:0 auto;max-width:70ch;color:var(--muted);line-height:1.6;font-size:var(--font-size-base);text-align:center;}
+  .vmc-cta-row{margin-top:14px;display:flex;gap:12px;align-items:stretch;flex-wrap:wrap;justify-content:center;}
+  .vmc-cta{display:flex;gap:12px;align-items:center;background:rgba(11,90,166,.07);border:1px solid rgba(11,90,166,.20);border-radius:14px;padding:12px 16px;text-decoration:none;color:var(--text);box-shadow:0 4px 12px rgba(0,0,0,.06);flex:0 1 420px;transition:.15s ease;}
+  .vmc-cta:hover{transform:translateY(-1px);box-shadow:0 6px 18px rgba(0,0,0,.10);}
+  .vmc-cta-ic{width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;background:rgba(11,90,166,.12);font-size:20px;flex:0 0 auto;}
+  .vmc-cta-txt{display:flex;flex-direction:column;gap:2px;}
+  .vmc-cta-txt strong{font-size:var(--font-size-sm);color:var(--text);}
+  .vmc-cta-txt span{color:var(--muted);font-size:12px;}
+  .vmc-cta-note{flex:1 1 240px;border:1px solid var(--line);border-radius:14px;padding:12px 14px;background:#fff;color:var(--muted);font-size:12px;line-height:1.5;}
+  .vmc-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px;}
+  .vmc-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:14px;display:flex;gap:12px;box-shadow:0 4px 10px rgba(0,0,0,.05);}
+  .vmc-ic{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:rgba(11,90,166,.10);flex:0 0 auto;}
+  .vmc-card-title{font-weight:700;font-size:var(--font-size-sm);color:var(--text);margin-bottom:2px;}
+  .vmc-card-text{color:var(--muted);font-size:12px;line-height:1.4;}
+  .vmc-tabs{margin-top:16px;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);background:#fff;}
+  .vmc-tabbar{display:flex;flex-wrap:wrap;border-bottom:2px solid var(--line);background:#fafafa;}
+  .vmc-tab{appearance:none;border:0;border-bottom:2px solid transparent;margin-bottom:-2px;background:transparent;padding:13px 14px;font-weight:700;font-size:12px;color:#374151;cursor:pointer;transition:.15s ease;}
+  .vmc-tab:hover{color:var(--text);background:rgba(0,0,0,.02);}
+  .vmc-tab.is-active{color:var(--accent);border-bottom-color:var(--accent);background:#fff;}
+  .vmc-panels{background:var(--bg);padding:16px;}
+  .vmc-panel{display:none;}
+  .vmc-panel.is-active{display:block;}
+  .vmc-panel-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;}
+  .vmc-panel-card h2{margin:0 0 14px;font-size:1.35rem;color:var(--text);font-weight:800;}
+  .vmc-acc{display:flex;flex-direction:column;gap:8px;}
+  .vmc-acc-btn{width:100%;text-align:left;border:1px solid var(--line);background:#fff;border-radius:12px;padding:14px 16px;font-weight:700;font-size:var(--font-size-sm);color:var(--text);cursor:pointer;transition:.15s ease;position:relative;}
+  .vmc-acc-btn::after{content:"＋";position:absolute;right:16px;top:50%;transform:translateY(-50%);color:var(--muted);font-weight:400;font-size:18px;}
+  .vmc-acc-btn[aria-expanded="true"]::after{content:"－";}
+  .vmc-acc-btn:hover{background:var(--accent-light);color:var(--accent);border-color:rgba(11,90,166,.25);}
+  .vmc-acc-btn[aria-expanded="true"]{background:var(--accent-light);color:var(--accent);border-color:rgba(11,90,166,.25);}
+  .vmc-acc-body{display:none;border:1px solid var(--line);border-radius:12px;padding:16px 18px;background:#fff;margin-top:-4px;}
+  .vmc-acc-body p{margin:0 0 10px;line-height:1.65;font-size:var(--font-size-base);color:var(--text);}
+  .vmc-acc-body p:last-child{margin-bottom:0;}
+  .vmc-acc-body ul{margin:6px 0 10px;padding-left:20px;line-height:1.7;font-size:var(--font-size-base);color:var(--text);}
+  .vmc-acc-body li{margin-bottom:4px;}
+  .vmc-acc-body a{color:var(--accent);font-weight:600;}
+  .vmc-callout{margin-top:12px;padding:12px 16px;background:rgba(11,90,166,.07);border-left:4px solid var(--accent);border-radius:10px;font-weight:700;font-size:var(--font-size-sm);color:var(--accent-dark);}
+  .vmc-contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+  .vmc-contact-item{background:var(--bg);border-radius:10px;padding:10px 14px;}
+  .vmc-contact-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:#374151;margin-bottom:3px;}
+  .vmc-contact-value{font-size:var(--font-size-sm);color:var(--text);font-weight:600;}
+  .vmc-contact-value a{color:var(--accent);}
+  .vmc-tooltip-wrap{position:relative;display:inline-block;margin-left:6px;vertical-align:middle;}
+  .vmc-tooltip-trigger{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;background:var(--accent);color:#fff;font-size:11px;font-weight:700;cursor:pointer;line-height:1;}
+  .vmc-tooltip-box{display:none;position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%);background:#1f2937 !important;color:#f9fafb !important;font-size:0.8rem !important;font-weight:400 !important;line-height:1.55;padding:12px 16px;border-radius:12px;width:280px;box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:999;pointer-events:none;}
+  .vmc-tooltip-box *{color:#f9fafb !important;}
+  .vmc-tooltip-box a{color:#93c5fd !important;display:block;margin-top:8px;font-weight:600 !important;text-decoration:underline;}
+  .vmc-tooltip-box::after{content:'';position:absolute;bottom:100%;left:50%;transform:translateX(-50%);border:7px solid transparent;border-bottom-color:#1f2937;}
+  .vmc-tooltip-wrap:hover .vmc-tooltip-box,.vmc-tooltip-trigger:focus + .vmc-tooltip-box{display:block;pointer-events:auto;}
+  .vmc-cta--wip{cursor:default;opacity:.85;border-style:dashed;}
+  .vmc-wip-badge{display:inline-block;font-size:11px;font-weight:700;background:#f59e0b;color:#fff;padding:2px 8px;border-radius:999px;margin-left:8px;vertical-align:middle;letter-spacing:.3px;}
+  .vmc-wip-banner{display:flex;gap:14px;align-items:flex-start;background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:14px 16px;margin-bottom:12px;}
+  .vmc-wip-icon{font-size:24px;flex:0 0 auto;margin-top:2px;}
+  .vmc-wip-banner strong{display:block;font-size:var(--font-size-sm);color:#92400e;margin-bottom:4px;}
+  .vmc-wip-banner p{margin:0;font-size:var(--font-size-sm);color:#78350f;line-height:1.55;}
+  .vmc-confirm-section{margin-top:20px;border:2px solid var(--green-border);border-radius:var(--r);background:var(--green-bg);padding:28px 24px;box-shadow:0 8px 24px rgba(22,163,74,.10);}
+  .vmc-confirm-inner{display:flex;gap:16px;align-items:flex-start;margin-bottom:20px;}
+  .vmc-confirm-icon{font-size:38px;flex:0 0 auto;line-height:1;margin-top:2px;}
+  .vmc-confirm-heading{margin:0 0 6px;font-size:1.35rem;font-weight:900;color:var(--green);line-height:1.2;}
+  .vmc-confirm-lead{margin:0;font-size:var(--font-size-base);color:#374151;line-height:1.6;max-width:70ch;}
+  .vmc-confirm-checklist{display:flex;align-items:center;gap:10px;flex-wrap:wrap;background:#fff;border:1px solid var(--green-border);border-radius:12px;padding:14px 18px;margin-bottom:20px;}
+  .vmc-check-item{display:flex;align-items:center;gap:8px;font-size:var(--font-size-sm);font-weight:600;color:#1f2937;}
+  .vmc-check-icon{font-size:18px;}
+  .vmc-check-divider{color:var(--green-accent);font-size:20px;font-weight:900;padding:0 4px;}
+  .vmc-confirm-form{background:#fff;border:1px solid var(--green-border);border-radius:14px;padding:20px 22px;}
+  .vmc-confirm-form .wpforms-submit,.vmc-confirm-form input[type="submit"]{background-color:var(--green-accent)!important;border-color:var(--green-accent)!important;color:#fff!important;font-size:var(--font-size-base)!important;font-weight:700!important;padding:13px 28px!important;border-radius:10px!important;cursor:pointer!important;}
+  .vmc-confirm-form .wpforms-submit:hover,.vmc-confirm-form input[type="submit"]:hover{background-color:#15803d!important;border-color:#15803d!important;}
+  @media(max-width:900px){
+    .vmc-cards{grid-template-columns:1fr;}
+    .vmc-confirm-checklist{flex-direction:column;align-items:flex-start;}
+    .vmc-check-divider{display:none;}
+    .vmc-contact-grid{grid-template-columns:1fr;}
+  }
+</style>
+
+<script>
+(function(){
+  const root = document.querySelector('.vmc-hb');
+  if(!root) return;
+  const tabs = root.querySelectorAll('.vmc-tab');
+  const panels = root.querySelectorAll('.vmc-panel');
+  tabs.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('is-active'));
+      panels.forEach(p => p.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      const panel = root.querySelector('#' + btn.dataset.tab);
+      if(panel) panel.classList.add('is-active');
+    });
+  });
+  root.querySelectorAll('.vmc-acc-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const body = btn.nextElementSibling;
+      const isOpen = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!isOpen));
+      if(body) body.style.display = isOpen ? 'none' : 'block';
+    });
+  });
+})();
+</script>
